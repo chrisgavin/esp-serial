@@ -1,6 +1,6 @@
 #include <esp_log.h>
-#include <esp_system.h>
 #include "esp_serial.h"
+#include <esp_system.h>
 
 static const char* TAG = "main";
 

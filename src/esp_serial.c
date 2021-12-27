@@ -1,7 +1,7 @@
 #include <esp_err.h>
 #include <esp_system.h>
 
-const int SERIAL_SIZE = 13;
+#include "esp_serial.h"
 
 esp_err_t get_serial_string(char serial[]) {
 	if (serial == NULL) {
