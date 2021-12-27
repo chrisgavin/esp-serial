@@ -1,0 +1,7 @@
+{
+	"name": "esp-serial",
+	"version": "0.0.0",
+	"dependencies": [],
+	"frameworks": ["espidf"],
+	"platforms": ["espressif32"]
+}
