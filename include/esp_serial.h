@@ -3,7 +3,8 @@
 
 #include <esp_err.h>
 
-extern int SERIAL_SIZE;
+#define SERIAL_SIZE 13
+
 esp_err_t get_serial_string(char serial[]);
 
 #endif
